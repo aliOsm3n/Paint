@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:text="Small Brush"
+        android:background="#E91E63"
+        android:textColor="@color/white"
+        android:id="@+id/smallBrushButton"/>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:text="Medium Brush"
+        android:background="#E91E63"
+        android:textColor="@color/white"
+        android:id="@+id/mediumBrushButton"/>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:text="Large Brush"
+        android:background="#E91E63"
+        android:textColor="@color/white"
+
+        android:id="@+id/largeBrushButton"/>
+
+</LinearLayout>
